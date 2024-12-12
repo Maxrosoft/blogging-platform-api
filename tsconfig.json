@@ -8,6 +8,8 @@
         "strict": true,
         "skipLibCheck": true,
         "allowImportingTsExtensions": true,
-        "noEmit": true
-    }
+        "noEmit": true,
+        "resolveJsonModule": true
+    },
+    "include": ["src/swagger-output.json", "src/**/*"]
 }
