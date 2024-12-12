@@ -13,13 +13,16 @@
     "license": "ISC",
     "devDependencies": {
         "@types/express": "^5.0.0",
+        "@types/mongoose": "^5.11.97",
         "@types/node": "^22.10.2",
         "nodemon": "^3.1.7",
         "tsx": "^4.19.2",
         "typescript": "^5.7.2"
     },
     "dependencies": {
+        "blogging-platform-api": "file:",
         "dotenv": "^16.4.7",
-        "express": "^4.21.2"
+        "express": "^4.21.2",
+        "mongoose": "^8.8.4"
     }
 }
